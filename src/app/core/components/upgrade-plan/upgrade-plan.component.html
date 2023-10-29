@@ -1,0 +1,92 @@
+<div [style.display]="panelManagerService.upgradeContainerVisible ? 'block' : 'none'" class="upgrade-container">
+    <div class="inner-container">
+        <div class="top">
+            <h3>Upgrade your plan</h3>
+            <div (click)="panelManagerService.toogleUpgradeContainer()" class="close-btn">
+                <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round"
+                    stroke-linejoin="round" class="h-5 w-5" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </div>
+        </div>
+        <div class="middle">
+            <div class="mid-container middle-left">
+                <h3 class="plan">Free</h3>
+                <h3 class="fee">USD $0/month</h3>
+                <button disabled class="plan-btn">Your Current Plan</button>
+                <div class="desc-plan">
+                    <h4>For people just getting started with ChatGPT</h4>
+                    <div class="lists">
+                        <div class="list">
+                            <div class="tick"><svg stroke="currentColor" fill="none" stroke-width="2"
+                                    viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"
+                                    class="mr-2 mt-1 h-4 w-4" height="1em" width="1em"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg></div>
+                            <h5>Access to our GPT-3.5 model</h5>
+                        </div>
+                        <div class="list">
+                            <div class="tick"><svg stroke="currentColor" fill="none" stroke-width="2"
+                                    viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"
+                                    class="mr-2 mt-1 h-4 w-4" height="1em" width="1em"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg></div>
+                            <h5>Regular model updates</h5>
+                        </div>
+                        <div class="billing-help">
+                            <small>Have an existing plan? <span style="text-decoration: underline;">See billing
+                                    help</span> </small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mid-container middle-right">
+                <div class="plus">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 14" fill="none" class="icon-md text-green-600"><path fill-rule="evenodd" clip-rule="evenodd" d="M5.99893 6.62564C7.65569 6.62564 8.99876 5.28257 8.99876 3.62581C8.99876 1.96905 7.65569 0.625977 5.99893 0.625977C4.34217 0.625977 2.9991 1.96905 2.9991 3.62581C2.9991 5.28257 4.34217 6.62564 5.99893 6.62564ZM4.24201 7.55355C2.79614 7.31004 1.47804 7.08805 0.692118 8.54002C-1.72958 13.0141 2.72714 13.3754 5.9997 13.3754C9.27227 13.3754 13.7288 13.0141 11.3073 8.54002C10.5214 7.08796 9.20329 7.30998 7.75743 7.55352C7.18323 7.65023 6.58888 7.75035 5.9997 7.75035C5.41054 7.75035 4.8162 7.65025 4.24201 7.55355Z" fill="#10A37F"></path></svg>
+                    <h3 class="plan">Plus</h3>
+                </div>
+                <h3 class="fee">USD $20/month</h3>
+                <button class="plan-btn plus-btn">Upgrade To Plus</button>
+                <div class="desc-plan">
+                    <h4>Everything in Free, and:</h4>
+                    <div class="lists">
+                        <div class="list">
+                            <div class="tick"><svg stroke="currentColor" fill="none" stroke-width="2"
+                                    viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"
+                                    class="mr-2 mt-1 h-4 w-4" height="1em" width="1em"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg></div>
+                            <h5>Access to GPT-4, our most capable model</h5>
+                        </div>
+                        <div class="list">
+                            <div class="tick"><svg stroke="currentColor" fill="none" stroke-width="2"
+                                    viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"
+                                    class="mr-2 mt-1 h-4 w-4" height="1em" width="1em"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg></div>
+                            <h5>Faster response speed</h5>
+                        </div>
+                        <div class="list">
+                            <div class="tick"><svg stroke="currentColor" fill="none" stroke-width="2"
+                                    viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"
+                                    class="mr-2 mt-1 h-4 w-4" height="1em" width="1em"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg></div>
+                            <h5>Access to beta features like browsing, plugins, and advanced data analysis</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <p>Need more capabilities? See
+                ChatGPT Enterprise</p>
+        </div>
+    </div>
+</div>

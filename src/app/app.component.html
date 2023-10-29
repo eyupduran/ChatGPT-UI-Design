@@ -1,0 +1,6 @@
+<div class="app-container">
+  <app-desktop-sidebar *ngIf="deviceService.isDesktop" class="app-sidebar-desktop" ></app-desktop-sidebar>
+  <app-mobile-sidebar *ngIf="deviceService.isMobile" class="app-sidebar-mobile" ></app-mobile-sidebar>
+  <app-main class="app-main"></app-main>
+  <app-upgrade-plan ></app-upgrade-plan>
+</div>

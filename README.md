@@ -4,5 +4,7 @@ This project has reimagined the user interface of the existing ChatGPT applicati
 
 --- 
 
-https://github.com/eyupduran/ChatGPT-UI-Design/assets/56426468/e5c60619-580c-4c15-bba6-ca2ab0884c14
+https://github.com/eyupduran/ChatGPT-UI-Design/assets/56426468/b0306888-44e3-4937-961b-bb54d9246f48
+
+
 
